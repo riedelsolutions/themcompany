@@ -18,4 +18,3 @@ window.onscroll = function() {
 	scroll();
 };
 
-//add whitespace ons croll
