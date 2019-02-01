@@ -1,0 +1,229 @@
+body{
+	background-color: #000;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+p, nav,h3,footer{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Main title*/
+h1{
+	font-family: 'Cabin', sans-serif;
+	font-size: 70px;
+}
+
+/*Other headings: products, Coming Soon, Support Us*/
+h2{
+	font-family: 'Cabin', sans-serif;
+	font-size: 40px;
+}
+
+/*Subtitles*/
+h3{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h4{
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+h4 a, .vanish h4 a{
+	border-bottom: none;
+}
+
+p{
+	font-size: 17px;
+}
+
+a{
+	text-decoration: none;
+	border-bottom: white 1px solid;
+	color:inherit;
+}
+
+a:hover{
+	color: ;
+	border-bottom: white 2px solid;
+}
+
+a:visited{
+	color:none;
+}
+
+.landing{
+	max-width: 70%;
+	text-align: right;
+	float:left;
+	margin-bottom: 300px;
+}
+
+.whitem{
+	max-width: 15%;
+    padding-top: 120px;
+    padding-right: 100px;
+    padding-left:100px;
+    float: right;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  padding-top: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+  float:right;
+}
+
+
+
+#ms{
+	position: fixed;
+}
+
+.content{
+	clear:both;
+}
+
+.content div{
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.content img{
+	max-width: 100%;
+}
+
+.fontdatabase{
+	background-color: #8c0834;
+}
+
+.vanish{
+	background-color: #FFF;
+	color:#000;
+}
+
+.vanish a{
+	text-decoration: none;
+	border-bottom: black 1px solid;
+	color:inherit;
+}
+
+.vanish a:hover{
+	border-bottom: black 2px solid;
+}
+
+.supportbtn{
+	display: inline-flex;
+	align-items: flex-end;
+}
+
+#patreon, #kofi{
+	float: right;
+	clear: both;
+}
+
+
+#patreon{
+	max-width: 150px;
+}
+
+#kofi{
+	position: relative;
+	left:40px;
+}
+
+footer{
+	margin-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 200px;
+}
+
+footer img{
+	height: 30px;
+	padding-right: 10px;
+}
+
+footer a, .supportBtns a, .support a, footer a:hover, .supportBtns a:hover, .support a:hover{
+	border-bottom: none;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 2000px){
+
+	#ms{
+		padding-left: 250px;
+		padding-right: 200px;
+	}
+
+	h1{
+		font-size: 200px;
+	}
+
+	h2{
+		font-size: 150px;
+	}
+}
+
+@media only screen and (min-width: 1762px){
+
+h1{
+	font-size: 100px;
+}
+
+h2{
+	font-size: 70px;
+}
+
+h3{
+	font-size: 55px;
+}
+
+h4{
+	font-size: 50px;
+}
+
+p{
+	font-size: 47px;
+}
+
+.landing{
+	margin-bottom: 600px; 
+}
+
+}
+
+@media only screen and (max-width: 950px){
+	.whitem{
+		padding-right: 70px;
+   		padding-left:70px;
+}
+}
+
+@media only screen and (max-width: 500px){
+	.whitem{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 465px){
+
+.whitem{
+	max-width: 13%;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+h1{
+	font-size: 50px;
+}
+
+}
